@@ -13,6 +13,5 @@ console.log(altura_m_redondeado);
 let peso_redondeado = Math.floor(peso);
 console.log(peso_redondeado);
 
-let boolean = false;
-let variable = Math.max(boolean) + 1;
-console.log(boolean);
+let comparacion = Number.MAX_VALUE === Number.MAX_VALUE + 1;
+console.log(comparacion);
